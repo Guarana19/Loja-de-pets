@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    
+}
+
+.center{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 5px;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+div.icons span{
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+input[type=search]{
+    width: 300px;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+/*-----------Bnaner com doguinho de amarelo----------*/
+div.bloco{
+    background: url(imagens/11238747.jpg) no-repeat center top;
+    background-size: cover;
+    margin: 0 auto;
+    height: 570px;
+    padding: 100px;
+}
+
+div.bloco article {
+    width: 290px;
+    height: 320px;
+    text-align: center;
+    color: white;
+   
+}
+
+article h2{
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 2em;
+}
+/*-------- FIM Bnaner com doguinho de amarelo ----*/
+
+/*----------- galeria----------*/
+
+section{
+    display: flex;
+    
+}
+
+div.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article h3{
+    background-color: white;
+    width: 200px;
+    border-radius: 0 0 20px 0;
+    padding-left: 10px;
+    text-align: center;
+}
+article.ar1{
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    background: rgb(249,229,242);
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.ar1 img {
+    width: 400px;
+}
+
+article.ar2{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    background: rgb(249,229,242);
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+}
+.ar2 img {
+    width: 400px;
+    margin-top: -60px;
+}
+
+article.ar3{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    background: rgb(249,229,242);
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+.ar3 img {
+    width: 290px;
+    margin-top: -60px;
+}
+
+article.ar4{
+    width: 620px;
+    height: 180px;
+    margin: 10px;
+    background: rgb(249,229,242);
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+.ar4 img {
+    width: 300px;
+}
+
+
+/*-----------FIM  galeria----------*/
