@@ -76,11 +76,9 @@ article a{
 
 /*----------- galeria----------*/
 
-section{
+section.galeria{
     margin-top: 10px;
     display: flex;
-    
-    
 }
 
 div.flex{
@@ -161,6 +159,5 @@ article.ar4{
     width: 300px;
     
 }
-
 
 /*-----------FIM  galeria----------*/
