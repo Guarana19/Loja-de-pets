@@ -161,3 +161,17 @@ article.ar4{
 }
 
 /*-----------FIM  galeria----------*/
+
+section.racao{
+    display: flex;
+}
+
+section.racao div {
+    text-align: center;
+    background-color:;
+    border: 1px solid black;
+}
+
+section img{
+    width: 150px;
+}
